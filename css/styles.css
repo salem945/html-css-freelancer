@@ -1,0 +1,182 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Dark Grey/Gris Foncé:	                         #465065
+   Light Grey/Gris Claire:			                   #9aa0ab
+   Very Light Grey/Gris Très Claire (footer):       #b9c0c6
+   Red/Rouge:			                               #f0454c
+   Hover on icons, button and "More ->"             #000
+   =============================== */
+
+/* General */
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+header{
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+#header{
+  margin-left: 200px;
+}
+header nav ul{
+  display: flex;
+  float: right;
+  margin-right: 200px;
+
+}
+header nav ul li{
+  margin-left: 50px;
+  list-style-type: none;
+
+}
+
+header nav ul li a{
+  color: black;
+  text-decoration: none;
+  
+}
+
+body{
+}
+header nav + a{
+  display: inline-block;
+  background-color: red;
+  color:white;
+  width: 120px;
+  height:50px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+header section{
+  margin-top: 300px;
+}
+header section h1:before{
+  display: block;
+  content: "";
+  background-color: red;
+  width: 50px;
+  height:3px;
+  margin-bottom: 20px;
+}
+header section + a{
+  display: inline-block;
+  background-color: red;
+  color:white;
+  width: 120px;
+  height:50px;
+  padding-top: 10px;
+  text-decoration: none;
+
+}
+
+#section1{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.section1{
+  width: 200px;
+}
+.section1 p{
+  font-size: 12px;
+  color: gray;
+}
+.section1 p:first-line{
+  color:black;
+}
+#section2{
+  display: flex;
+  margin-top: 50px;
+}
+#section2 article{
+  padding-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#section2 article p{
+  font-size: 12px;
+  color: gray;
+}
+#section2 article p:first-line{
+  color:black;
+}
+#section2 img{
+  width: 300px;
+  height: 300px;
+}
+#section3 p + div{
+  display: flex;
+}
+.section3{
+  display: flex;
+  justify-content: space-around;
+  width:300px;  
+}
+main{
+  margin-left: 200px;
+  margin-right: 300px;
+  position: relative;
+}
+h2:before{
+ display: block;
+  content: "";
+  background-color: red;
+  width: 50px;
+  height:3px;
+  margin-bottom: 20px;
+  }
+  .section3 h2:before{
+    background-color: transparent;
+  } 
+  .section3 img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+  }
+.section3 p{
+  font-size: 12px;
+  color: gray;
+}
+.section3 div p:nth-child(2){
+  color: red;
+}
+
+footer{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+  border-top: 1px solid lightgray;
+  padding-top:50px;
+  position:relative;
+  margin-bottom: 50px;
+  margin-right: 200px;
+}
+footer p{
+  position: absolute;
+  right: 200px;
+  top:20px;
+}
+footer i{
+  color:lightgray;
+  margin-left: 50px;
+}
+footer i:hover{
+  color:black;
+}
+main a{
+  color:red;
+  text-decoration: none;
+}
+main section + a{
+  position: absolute;
+  right: 0px;
+
+}
