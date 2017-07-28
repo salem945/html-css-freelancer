@@ -30,50 +30,57 @@ header nav ul{
   display: flex;
   float: right;
   margin-right: 200px;
-
 }
 header nav ul li{
   margin-left: 50px;
   list-style-type: none;
 
 }
-
-header nav ul li a{
+nav .fa{
+  color: crimson;
+}
+header nav ul  a{
   color: black;
   text-decoration: none;
-  
+
 }
 
-body{
-}
 header nav + a{
   display: inline-block;
-  background-color: red;
+  background-color: crimson;
   color:white;
   width: 120px;
   height:50px;
   padding-top: 10px;
   text-decoration: none;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  font-weight: bold;
+
 }
+
 header section{
   margin-top: 300px;
 }
 header section h1:before{
   display: block;
   content: "";
-  background-color: red;
+  background-color: crimson;
   width: 50px;
   height:3px;
   margin-bottom: 20px;
 }
 header section + a{
   display: inline-block;
-  background-color: red;
+  background-color: crimson;
   color:white;
   width: 120px;
   height:50px;
   padding-top: 10px;
   text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
 
 }
 
@@ -118,24 +125,27 @@ header section + a{
 .section3{
   display: flex;
   justify-content: space-around;
-  width:300px;  
+  width:300px;
 }
 main{
   margin-left: 200px;
   margin-right: 300px;
   position: relative;
 }
+h2{
+  margin: 0;
+}
 h2:before{
  display: block;
   content: "";
-  background-color: red;
+  background-color: crimson;
   width: 50px;
   height:3px;
   margin-bottom: 20px;
   }
   .section3 h2:before{
     background-color: transparent;
-  } 
+  }
   .section3 img{
     width:120px;
     height:120px;
@@ -162,7 +172,7 @@ footer{
 footer p{
   position: absolute;
   right: 200px;
-  top:20px;
+
 }
 footer i{
   color:lightgray;
@@ -172,11 +182,15 @@ footer i:hover{
   color:black;
 }
 main a{
-  color:red;
+  color:crimson;
   text-decoration: none;
 }
 main section + a{
   position: absolute;
   right: 0px;
-
+}
+i+p {
+  position: relative;
+  left:535px;
+  bottom: 55px;
 }
